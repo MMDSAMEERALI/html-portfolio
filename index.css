@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+  background-color: #393E46;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+.dice {
+  display: inline-block;
+  padding: 20px;
+}
+
+img {
+  width: 80%;
+  max-width: 250px;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* --- Responsive Media Queries --- */
+
+/* Tablet ke liye (Screens under 1024px) */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+/* Mobile ke liye (Screens under 768px) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+  }
+
+  .dice {
+    display: block; /* Dice ek ke niche ek aayenge */
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  img {
+    width: 50%; /* Mobile par dice thode chote dikhenge */
+  }
+
+  p {
+    font-size: 1.5rem;
+    margin: 5px;
+  }
+}
